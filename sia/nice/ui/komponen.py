@@ -1,4 +1,4 @@
-"""Komponen tampilan yang dipakai semua halaman: tabel, pesan, tombol hapus, dan pembantu kecil lainnya."""
+"""Komponen tampilan yang dipakai semua halaman: tabel, pesan, tombol hapus, dan lainnya."""
 import datetime as dt
 
 import pandas as pd
@@ -10,7 +10,7 @@ NAN = float("nan")
 
 
 def num(x):
-    """Isi sel / kolom angka -> Decimal (kosong dianggap 0)."""
+    """Isi sel / kolom angka - Decimal (kosong dianggap 0)."""
     return angka(x) if x is not None and not pd.isna(x) else Z
 
 

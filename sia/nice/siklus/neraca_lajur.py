@@ -1,5 +1,5 @@
-"""TAHAP 6 - NERACA LAJUR (kertas kerja).
-Satu tabel 10 kolom: neraca saldo, penyesuaian, disesuaikan, laba rugi, dan neraca."""
+
+
 from core.buku import Buku
 from core.konstanta import LR
 from core.util import B, Z, kol, sisi

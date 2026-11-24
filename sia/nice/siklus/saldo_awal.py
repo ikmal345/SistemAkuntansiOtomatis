@@ -1,5 +1,5 @@
-"""TAHAP 0 - SALDO AWAL.
-Saldo awal akun aset, liabilitas, dan modal. Untuk akun persediaan isi juga jumlahnya dalam kg."""
+
+
 import pandas as pd
 import streamlit as st
 from sqlalchemy import or_, select

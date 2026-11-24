@@ -1,5 +1,5 @@
-"""TAHAP 9 - NERACA SALDO AKHIR (setelah penutupan).
-Hanya akun riil (aset, liabilitas, modal) yang tersisa; modal sudah berisi laba dan dikurangi prive."""
+
+
 from core.buku import Buku
 from core.konstanta import IKHTISAR, LR, MODAL, PRIVE
 from core.util import Z

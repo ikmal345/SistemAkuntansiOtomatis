@@ -1,8 +1,8 @@
-"""TAHAP 1 - JURNAL UMUM.
-Jurnal umum terisi dari dua sumber:
-  1. otomatis, dari input Penerimaan / Pengeluaran / Transaksi Lainnya (lihat transaksi.py)
-  2. manual, lewat form Input Jurnal Umum di file ini
-Jurnal Penyesuaian (ajp.py) memakai tabel dan form yang sama, hanya jenisnya 'AJP'."""
+
+
+
+
+
 import datetime as dt
 
 import pandas as pd

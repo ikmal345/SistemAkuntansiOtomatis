@@ -1,6 +1,6 @@
-"""DAFTAR AKUN - lihat, tambah, dan hapus akun.
-Akun hanya boleh dihapus bila aman: tidak dipakai perhitungan laporan, belum ada jurnal, dan tidak punya saldo awal.
-Jenis transaksi yang bergantung pada akun yang dihapus otomatis hilang dari daftar input (lihat transaksi.py)."""
+
+
+
 import streamlit as st
 from sqlalchemy import delete, func, insert, select
 

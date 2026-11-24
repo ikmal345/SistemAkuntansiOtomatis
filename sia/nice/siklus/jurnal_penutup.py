@@ -1,5 +1,5 @@
-"""TAHAP 8 - JURNAL PENUTUP.
-Menutup akun sementara (pendapatan, HPP, beban, prive) ke Ikhtisar Laba Rugi lalu ke Modal Pemilik."""
+
+
 import streamlit as st
 from sqlalchemy import delete, insert
 

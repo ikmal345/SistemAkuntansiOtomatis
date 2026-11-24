@@ -1,5 +1,5 @@
-"""TAHAP 3 - NERACA SALDO (sebelum penyesuaian).
-Saldo akhir tiap akun dari saldo awal + jurnal umum. Total debit harus sama dengan total kredit."""
+
+
 import streamlit as st
 
 from core.buku import Buku

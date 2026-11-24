@@ -1,5 +1,5 @@
-"""Jalankan aplikasi:  python jalankan.py
-Menggantikan `streamlit run app.py`, sekaligus mengatur warna tema Streamlit lewat Python (tanpa file .toml)."""
+
+
 import os
 import subprocess
 import sys

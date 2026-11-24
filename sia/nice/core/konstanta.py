@@ -1,4 +1,4 @@
-"""Akun-akun yang dipakai langsung oleh perhitungan laporan. Akun ini tidak boleh dihapus."""
+
 
 # kelompok akun yang masuk kolom laba rugi
 LR = ("Pendapatan", "Pembelian", "HPP", "Beban")

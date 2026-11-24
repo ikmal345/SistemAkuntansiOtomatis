@@ -1,20 +1,21 @@
-"""Ambarawa Avocado - Siklus Akuntansi (Streamlit + MySQL).   Jalankan: streamlit run app.py
 
-File ini hanya menyusun menu dan memanggil halaman. Isi tiap tahap siklus ada di foldernya sendiri:
-    siklus/transaksi.py            input Penerimaan, Pengeluaran, Transaksi Lainnya (pintu masuk, otomatis menjadi jurnal)
-    siklus/saldo_awal.py           0. saldo awal
-    siklus/ju.py                   1. jurnal umum
-    siklus/persediaan.py           kartu stok alpukat
-    siklus/bukbes.py               2. buku besar
-    siklus/neraca_saldo.py         3. neraca saldo
-    siklus/ajp.py                  4. jurnal penyesuaian
-    siklus/bukbes_ajp.py           5. buku besar setelah penyesuaian
-    siklus/neraca_lajur.py         6. neraca lajur
-    siklus/laporan.py              7. laporan keuangan
-    siklus/jurnal_penutup.py       8. jurnal penutup
-    siklus/neraca_saldo_akhir.py   9. neraca saldo akhir
-    siklus/daftar_akun.py          daftar akun (tambah dan hapus)
-"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import io
 
 import streamlit as st

@@ -1,5 +1,5 @@
-"""TAHAP 7 - LAPORAN KEUANGAN: Laba Rugi, Perubahan Ekuitas, dan Posisi Keuangan (neraca).
-hitung(b) menghitung semua angka sekali; tiga tabel di bawahnya hanya menyusun tampilannya."""
+
+
 import streamlit as st
 
 from core.buku import Buku

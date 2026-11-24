@@ -1,6 +1,6 @@
-"""TAHAP 4 - JURNAL PENYESUAIAN.
-Memakai tabel dan form yang sama dengan jurnal umum (ju.py), hanya jenisnya AJP.
-Tombol Isi cepat membantu menyusun penyesuaian yang umum."""
+
+
+
 from siklus import ju
 
 # (teks tombol, keterangan, akun debit, akun kredit)

@@ -1,10 +1,10 @@
-"""INPUT TRANSAKSI - Penerimaan, Pengeluaran, dan Transaksi Lainnya.
 
-Inilah pintu masuk seluruh siklus. Setiap transaksi yang disimpan di sini otomatis menghasilkan:
-    jurnal umum (ju.py)  ->  kartu stok bila menyangkut alpukat (persediaan.py)  ->  buku besar  ->  neraca saldo  -> ... -> laporan
-sehingga semua input saling nyambung dalam satu siklus tanpa perlu menjurnal dua kali.
 
-Daftar jenis transaksi ada di ITEM di bawah. Menambah jenis baru cukup menambah satu baris `_i(...)`."""
+
+
+
+
+
 import datetime as dt
 
 import streamlit as st
@@ -212,7 +212,7 @@ def rancang(c, it, tgl, pihak, qty, harga, nominal, cara, produk, ket, akun_pili
     return out
 
 
-# ------------------------------------------------------------------ simpan dan hapus
+# simpan dan hapus
 def simpan(key, tgl, pihak, qty, harga, nominal, cara, produk, ket, akun_pilih, hasil, bukti):
     """Simpan transaksi + jurnal umum + mutasi stok dalam satu transaksi database. Mengembalikan nomor bukti."""
     it = ITEM_K[key]
@@ -237,7 +237,7 @@ def hapus(jid):
         c.execute(delete(t_jurnal).where(t_jurnal.c.id == jid))
 
 
-# ------------------------------------------------------------------ tabel riwayat
+#  tabel riwayat
 def tabel(kelompok):
     kolom = kol(("Tanggal", 105, "w"), ("No. Bukti", 100, "w"), ("Jenis Transaksi", 240, "w"), ("Customer / Supplier / Nama", 170, "w"),
                 ("Keterangan", 250, "w"), ("Jumlah kg", 90, "e"), ("Harga/kg", 110, "e"), ("Total (Rp)", 140, "e"), ("Pembayaran", 130, "w"))

@@ -1,5 +1,5 @@
-"""Koneksi MySQL lewat SQLAlchemy: definisi tabel, pembuatan tabel otomatis, daftar akun awal, dan migrasi dari versi lama.
-Semua tabel ditulis sebagai objek Python (t_akun, t_jurnal, ...) dan semua query disusun dengan select/insert/update/delete."""
+
+
 import datetime as dt
 from contextlib import contextmanager
 

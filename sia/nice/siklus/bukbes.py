@@ -1,5 +1,5 @@
-"""TAHAP 2 - BUKU BESAR (sebelum penyesuaian).
-Semua akun ditampilkan dalam satu tabel: saldo awal + mutasi dari jurnal umum, lengkap dengan saldo berjalan."""
+
+
 from collections import defaultdict
 
 from core.buku import Buku

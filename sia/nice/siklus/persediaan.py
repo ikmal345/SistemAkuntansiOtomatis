@@ -1,6 +1,6 @@
-"""PERSEDIAAN (kartu stok) - metode perpetual dengan harga rata-rata bergerak.
-Setiap pembelian / penjualan / produksi yang melibatkan alpukat (kg) mencatat mutasi di sini,
-sehingga nilai stok di neraca dan harga pokok penjualan (HPP) selalu sejalan dengan jurnal umum."""
+
+
+
 from decimal import Decimal as D, ROUND_HALF_UP
 
 import streamlit as st

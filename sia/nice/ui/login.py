@@ -1,7 +1,4 @@
-"""Gerbang masuk. Pilihan (di rahasia.py, atau environment variable, lihat core/config.py):
-  ADMIN (username + password)   -> halaman login dengan username dan password
-  APP_PASSWORD                  -> cukup satu kata sandi
-  keduanya kosong               -> aplikasi terbuka tanpa login (cocok untuk dipakai di komputer sendiri)"""
+
 import streamlit as st
 
 from core import config
@@ -35,7 +32,7 @@ def gerbang():
 
 
 def tombol_keluar():
-    """Tombol keluar di sidebar, hanya muncul bila login dipakai."""
+    """Tombol keluar di sidebar, hanya muncul jika login dipakai."""
     if perlu_login() and st.sidebar.button("Keluar", key="m_keluar_login"):
         st.session_state["masuk"] = False
         st.rerun()
