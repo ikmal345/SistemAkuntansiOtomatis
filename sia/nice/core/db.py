@@ -13,9 +13,9 @@ from sqlalchemy.schema import CreateSchema
 from core.config import DB
 from core.konstanta import DIKUNCI
 
-# ------------------------------------------------------------------ definisi tabel
+# definisi tabel
 _meta = MetaData()
-_opsi = dict(mysql_charset="utf8mb4")
+_opsi = {"mysql_engine": "InnoDB", "mysql_charset": "utf8mb4"}  
 
 
 def _uang(skala=2):
@@ -50,7 +50,7 @@ t_transaksi = Table("transaksi", _meta,
 t_migrasi = Table("migrasi", _meta, Column("nama", String(40), primary_key=True), **_opsi)
 
 
-# ------------------------------------------------------------------ koneksi
+# koneksi
 _mesin = {}
 
 
@@ -152,7 +152,7 @@ def _migrasi():
 
 def siapkan_database():
     """Buat database + tabel bila belum ada, lalu isi daftar akun dan periode pertama kali."""
-    try:                                    # di hosting, database biasanya sudah disediakan dan user tidak boleh membuatnya
+    try:                                    
         with mesin(False).begin() as k:
             k.execute(CreateSchema(DB["database"], if_not_exists=True))
     except Exception:
