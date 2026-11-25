@@ -13,7 +13,7 @@ from core.db import ambil, sesi, t_akun, t_detail, t_jurnal
 from core.util import I, Z, B, angka, dec, kol, rp, tanggal, tgl as tgl_teks
 from ui.komponen import NAN, jalankan, num, pesan, pilih_hapus, tampil, total_box
 
-KOL_JURNAL = kol(("Tanggal", 105, "w"), ("Bukti", 90, "w"), ("Keterangan / Akun", 430, "w"), ("Ref", 70, "w"), ("Debit", 140, "e"), ("Kredit", 140, "e"))
+KOL_JURNAL = kol(("Tanggal", 105, "w"), ("No. Bukti", 90, "w"), ("Keterangan / Akun", 430, "w"), ("Ref", 70, "w"), ("Debit", 140, "e"), ("Kredit", 140, "e"))
 
 
 # ------------------------------------------------------------------ simpan
